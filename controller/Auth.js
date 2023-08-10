@@ -79,7 +79,8 @@ exports.resetPasswordRequest = async (req, res) => {
 
     // Also set token in email
     const resetPageLink =
-      'http://shopverse.vercel.app/reset-password?token=' + token + '&email=' + email;
+      'http://shopverse-ivory.vercel.app/reset-password?token=' + token + '&email=' + email;
+      // https://shopverse-ivory.vercel.app/login
     const subject = 'reset password for e-commerce';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 

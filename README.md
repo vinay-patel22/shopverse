@@ -1,49 +1,59 @@
+# MERN E-Commerce Website - College Project
 
-# CoderDost MERN Stack E-commerce Project - Backend Repository
+Welcome to MERN E-Commerce website, a college project.
 
-🔥🔥 WATCH HERE >> [Project Video](https://youtu.be/LH-S5v-D3hA)
+## Table of Contents
+1. [Features](#features)
+2. [Technical Details](#technical-details)
+3. [Acknowledgments](#acknowledgments)
 
-MERN E-Commerce (in Hindi) with Admin Panel, Redux Toolkit, Stripe Payment, Cloud Deployment, Email Invoice, and many features (complete features given below in Description )
+## 1. Features
 
-🔥 Code Repositories:
-- React [frontend] -  https://github.com/coderdost/MERN-ecommerce-Frontend
-- Node [backend] - https://github.com/coderdost/MERN-ecommerce-backend
+🔥 This project showcases an E-Commerce website with the following features:
 
-🔥Related MasterClasses:
-- React [ 10 Hours ] - https://youtu.be/6l8RWV8D-Yo 
-- NodeJS / Express/ Mongoose [ 12 hours ] - https://youtu.be/ChVE-JbtYbM
-- Redux [ 7 hours ] - https://youtu.be/1zCNdVhdvHE
+- Product Lists: Browse and explore a wide range of products available for purchase.
+- Product Details: View detailed information about each product, including images, descriptions, and pricing.
+- Cart: Add and manage selected items in the shopping cart.
+- Checkout: Securely process orders for payment and delivery.
+- Secure Card Payments / Cash Payments: Provide users with multiple payment options.
+- Admin Panel: Administrators can manage orders and products through an intuitive panel.
+- Sorting, Filtering, and Pagination: Enhance the user experience with efficient data handling.
+- Authentication: Implement user authentication using Passport JS strategies.
+- Order Emails: Send order confirmation and status emails to users.
+- Reset Password Emails: Allow users to reset their passwords securely.
+- User Profile: Users can view and manage their profile information.
+- User Orders: Users can track their order history.
 
-🔥 Related Videos :
-- Multer Middleware (for file upload) -  https://youtu.be/qfN6c5FEAQQ
-- Mongoose populate - https://youtu.be/VuSt5-AwL8Y
-- Passport  JS Authentication - https://youtu.be/U-S3rgG8hBE
-- JWT Auth  is  from  - Node MasterClass (Link above)
-- Vercel deployment details  - Node MasterClass (Link above)
-- React Router Crash Course: https://bit.ly/36YfO2i
+## 2. Technical Details
 
-🔥 Features :
-- Basic E-commerce Features- Product lists, Product Details, Cart, Checkout 
-- Secure Card Payments / Cash payments
-- Admin Panel - Add/Edit Orders. Add/Edit Products
-- Sorting, Filtering, and Pagination queries using Mongoose
-- Authentication with Passport JS strategies
-- Order Emails, Reset Password Emails
-- User Profile and user orders
+🔥 The project is built using the following technologies:
 
-🔥 Technical Details :
-- React 18 with Tailwind CSS
-- Redux Toolkit with Async Thunk
-- React Router v6
-- JSON-server for front-end testing
-- MongoDB for Database
-- Mongoose v7 as ODM
-- REST API using Express
-- Authentication using Passport JS
-- API Authentication using Passport JWT
-- MongoDB Atlas cloud database
-- Vercel Server deployment
-- Email using Nodemailer - using GMail SMTP system
-- Payments using Stripe - PaymentIntent based custom flow
+- Frontend:
+  - React 18 with Tailwind CSS: Creating responsive and visually appealing user interfaces.
+  - Redux Toolkit with Async Thunk: Managing state and asynchronous actions efficiently.
+  - React Router v6: Handling client-side routing.
+  - JSON-server: Used for front-end testing and mocking API responses.
+
+- Backend:
+  - MongoDB: Database for storing product, user, and order information.
+  - Mongoose v7: Object Data Modeling (ODM) for MongoDB, providing a schema-based solution.
+  - Express: REST API implementation for handling server-side requests.
+  - Authentication: Passport JS for user authentication.
+  - API Authentication: Passport JWT for securing API endpoints.
+  - MongoDB Atlas: Cloud database service for seamless deployment and management.
+
+- Deployment:
+  - Vercel: Server deployment for hosting the website.
+  - Nodemailer: Used with GMail SMTP system for sending emails (order confirmation, password reset).
+  - Stripe: Integrated with PaymentIntent for secure and custom payment flows.
+
+## 3. Acknowledgments
+
+🙏 Special thanks to **CoderDost** for providing inspiration and guidance throughout the development process.
+
+You can find more tutorials and content at [CoderDost's YouTube Channel](http://youtube.com/c/CoderDost).
 
 
+---
+
+Thank you for using our MERN E-Commerce website! We hope you enjoy exploring its features and functionalities. If you have any questions or encounter any issues, please don't hesitate to contact us. Happy shopping! 😊
